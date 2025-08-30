@@ -25,10 +25,10 @@ def variance_of_laplacian(image):
 
 # Папки для сортировки
 FOLDERS = [
-    ("The deletion rate is less than 75", 0, 75),
-    ("for analysis 75-150", 75, 150),
-    ("for analysis 150-450", 150, 450),
-    ("excellent over 450", 450, float('inf')),
+    ("4. The deletion rate is less than 75", 0, 75),
+    ("3. For analysis 75-150", 75, 150),
+    ("2. For analysis 150-450", 150, 450),
+    ("1. Excellent over 450", 450, float('inf')),
 ]
 
 folder = input("Введите путь к папке с фотографиями: ").strip()

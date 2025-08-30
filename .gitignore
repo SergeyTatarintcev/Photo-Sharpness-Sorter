@@ -16,3 +16,6 @@ ENV/
 .ipynb_checkpoints
 .idea/
 .DS_Store
+.idea/
+.vscode/
+
